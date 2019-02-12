@@ -35,5 +35,6 @@ class DatabaseSeeder extends Seeder
         'nombre' => 'Sistemas microinformaticos y redes',
       ]);
 
+
     }
 }

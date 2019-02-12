@@ -12,6 +12,7 @@ $factory->define(App\Alumno::class, function (Faker $faker) {
         'telefono' => $faker->phoneNumber,
         'email' => $faker->unique()->safeEmail,
         'genero' => rand (0,2),
+        'ciclo_id' => rand (0,4),
     ];
 });
 
